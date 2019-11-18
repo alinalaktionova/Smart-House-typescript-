@@ -53,9 +53,6 @@ export class iKettle extends Device{
 
     addWater(value: number): void {
         let newAmountOfWater = this.currentFullness + value;
-        if (typeof value !== "number") {
-            Logger.error("Value must be a number");
-        }
         if (
             newAmountOfWater >= this.minFullness &&
             newAmountOfWater <= this.maxFullness
