@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb"],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "import/no-unresolved": 0,
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    },
+    "import/extensions": [".js", ".json", ".jsx", ".ts", ".tsx"]
+  }
+  }

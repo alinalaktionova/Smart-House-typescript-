@@ -11,5 +11,10 @@
     "moduleResolution": "node",
     "noEmitOnError": true
   },
-  "exclude": ["./node_modules"]
+  "exclude": ["./node_modules"],
+  "plugins": [
+    {
+      "name": "typescript-tslint-plugin"
+    }
+  ]
 }

@@ -21,7 +21,6 @@ module.exports = {
             },
         ],
     },
-    /*plugins: [new copyWebpackPlugin(["index.html"])],*/
     devServer: {
         /*contentBase: "./dist",*/
         port: 3000
